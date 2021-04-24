@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow:hidden;
+  height: 100vh;
+}
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100,100,100, 0.1);
+  width: 600px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  padding: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+.quiz-container .btn {
+  background-color: #8e44ad;
+  color: #fff;
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 1.3rem;
+}
+
+.quiz-container .btn:hover {
+  background-color: #732d91;
+  color: #fff;
+}
+
+.quiz-container .btn:focus {
+  background-color: #5e3370;
+  box-shadow: none;
+}
